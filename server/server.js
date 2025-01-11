@@ -11,9 +11,8 @@ const port = process.env.PORT || 4000;
 connectDB();
 
 const allowedOrigins = [
-  process.env.NODE_ENV === "production"
-    ? process.env.FRONTEND_URL_PRODUCTION
-    : process.env.FRONTEND_URL_DEVELOPMENT,
+  "https://mern-authentication-project.netlify.app", // Netlify URL
+  "http://localhost:5173", // Localhost for development
 ];
 
 app.use(express.json());
