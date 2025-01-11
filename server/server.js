@@ -12,8 +12,8 @@ connectDB();
 
 const allowedOrigins = [
   process.env.NODE_ENV === "production"
-    ? process.env.FRONTEND_URL
-    : "http://localhost:5173",
+    ? process.env.FRONTEND_URL_PRODUCTION
+    : process.env.FRONTEND_URL_DEVELOPMENT,
 ];
 
 app.use(express.json());
