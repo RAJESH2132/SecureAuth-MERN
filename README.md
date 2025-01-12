@@ -96,7 +96,7 @@ Check out the live demo of the project: [MERN User Authentication System](https:
 
    - **Client (.env file)**:
      ```env
-     VITE_BACKEND_URL=http://localhost:3000
+     VITE_BACKEND_URL=http://localhost:4000
      ```
 
 4. **Run the Application:**
@@ -116,7 +116,7 @@ Check out the live demo of the project: [MERN User Authentication System](https:
 
 5. **Access the application:**
    - Frontend: [http://localhost:5173](http://localhost:5173)
-   - Backend: [http://localhost:3000](http://localhost:3000)
+   - Backend: [http://localhost:4000](http://localhost:4000)
 
 ---
 
