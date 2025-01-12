@@ -23,6 +23,12 @@ The backend is built with Node.js and Express, while the frontend is created usi
 
 ---
 
+## Live Demo
+
+Check out the live demo of the project: [MERN User Authentication System](https://mern-authentication-project.netlify.app/)
+
+---
+
 ## Tech Stack
 
 - **Frontend**:
